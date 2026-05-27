@@ -1,0 +1,19 @@
+{
+  "name": "freetypespecapp",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "scripts": {
+    "dev": "pnpm --filter @type-spec/web dev",
+    "build": "pnpm --filter @type-spec/web build",
+    "preview": "pnpm --filter @type-spec/web preview",
+    "typecheck": "pnpm --filter @type-spec/web exec tsc -b",
+    "test": "pnpm --filter @type-spec/web test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeappstore-online/type-spec.git"
+  },
+  "license": "MIT"
+}
