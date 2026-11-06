@@ -1,0 +1,6 @@
+{
+  "appId": "type-spec",
+  "applicationRoot": "web",
+  "outputPath": "web/dist",
+  "buildCommand": "pnpm build"
+}
