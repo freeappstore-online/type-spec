@@ -17,7 +17,7 @@ export function SpecimenView({ font, onFontChange, favFonts, onToggleFavorite }:
   const family = def ? `'${def.cssFamily}', system-ui, sans-serif` : 'system-ui, sans-serif'
 
   return (
-    <div className="grid gap-5 lg:grid-cols-[20rem_minmax(0,1fr)]">
+    <div className="grid grid-cols-1 gap-5 lg:grid-cols-[20rem_minmax(0,1fr)]">
       <aside className="surface p-4">
         <h2 className="display-font text-xl mb-3">Choose a font</h2>
         <FontPicker
